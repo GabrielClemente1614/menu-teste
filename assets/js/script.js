@@ -10,5 +10,9 @@ function menuShow() {
 }
 
 function cadastrar() {
-    
+    document.getElementById('teste1').innerHTML = "logando..."
+
+    setInterval ( function() {
+        document.getElementById('teste1').innerHTML = "pedro_143 ja usa esse nome de usuario";
+    } , 5000);
 }
